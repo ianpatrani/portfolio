@@ -1,0 +1,51 @@
+.App {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 480px;
+    margin: auto;
+}
+
+.accordion {
+    width: 100%;
+    max-width: 540px;
+    margin: 18px auto;
+    color: rgb(3, 3, 3);
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.accordionHeading .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordionHeading {
+    background-color: rgba(128, 128, 128, 0.26);
+    padding: 14px 0;
+}
+
+.accordionHeading span {
+    cursor: pointer;
+}
+
+.accordionContent {
+    display: flex;
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: all 500ms ease-in-out;
+}
+
+.accordionContent.show {
+    height: 180px;
+    opacity: 1;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 15px;
+}

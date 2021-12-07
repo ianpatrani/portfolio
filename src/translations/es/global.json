@@ -1,0 +1,30 @@
+{
+    "header": {
+        "hello-world": "./Bienvenido/al/portfolio/de/ianpatrani"
+    },
+    "title1": {
+        "text1": "¿Quién soy?"
+    },
+    "content1": {
+        "description1": "Mi nombre es Ian Patrani, soy un estudiante de sistemas y trabajo para proporcionar código en el desarrollo de frontend y backend con el objetivo de brindarle la mayoría de las soluciones posibles"
+    },
+    "title2": {
+        "text2": "¿Cuál es mi objetivo?"
+    },
+    "content2": {
+        "description2": "Mi objetivo es ser desarrollador de software, aprender buenas prácticas y modelos de negocio que puedan ser explotados en el futuro. Me gusta adquirir nuevos conocimientos y trabajar con los mejores equipos TIC del sector"
+    },
+    "title3": {
+        "text3": "¿Mis idiomas?"
+    },
+    "content3": {
+        "description3": "- HTML5 - CSS3 - Javascript - JAVA - React - MySQL - Otros."
+    },
+    "title4": {
+        "text4": "¿Mis proyectos?"
+    },
+    "content4": {
+        "description4": "https://github.com/ianpatrani/"
+    }
+
+}
