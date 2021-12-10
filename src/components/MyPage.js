@@ -43,7 +43,6 @@ const MyPage = () => {
                                 <li><a href="https://devplace-app-three.herokuapp.com/users">API example</a></li>
                                 <li><a href="https://serene-jennings-106ef1.netlify.app/">Frontend Mentor</a></li>
                                 <li><a href="https://silly-goldstine-9925e4.netlify.app/">Netflix</a></li>
-                                <li><a href="https://infallible-davinci-bb4c6b.netlify.app/">Card Example</a></li>
                                 <li><a href="https://objective-fermat-25490a.netlify.app/">Products Shopping</a></li>
                             </ul>
                         } active={active} setActive={setActive} />
