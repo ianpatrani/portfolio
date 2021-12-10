@@ -35,7 +35,13 @@ const MyPage = () => {
                         <Accordion title={t("title1.text1")} p={t("content1.description1")} active={active} setActive={setActive} />
                         <Accordion title={t("title2.text2")} p={t("content2.description2")} active={active} setActive={setActive} />
                         <Accordion title={t("title3.text3")} p={t("content3.description3")} active={active} setActive={setActive} />
-                        <Accordion title={t("title4.text4")} p={t("content4.description4")} active={active} setActive={setActive} />
+                        <Accordion title={t("title4.text4")} p={
+                            <ul>
+                                <li><a href="https://github.com/ianpatrani">GitHub</a></li>
+                                <li><a href="https://bootcamp-automarket.herokuapp.com/">Automarket</a></li>
+                                <li><a href="https://infallible-jang-490bb5.netlify.app/">Starbucks</a></li>
+                            </ul>
+                        } active={active} setActive={setActive} />
                         <Footer />
                     </div>
                 </StyledApp>
