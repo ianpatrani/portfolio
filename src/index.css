@@ -55,9 +55,21 @@ select {
 }
 
 @media only screen and (max-width: 600px) {
-  
-  .media{
+
+  .media {
     display: flex;
     flex-direction: row;
   }
+
+}
+
+ul li {
+  list-style: none;
+  display: flex;
+}
+
+ul li a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
 }

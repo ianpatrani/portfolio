@@ -5,21 +5,21 @@ const Accordion = ({ title, active, setActive, p }) => {
     let active2 = active === title ? "show" : "";
 
     return (
-            <div className="accordion">
-                <div className="accordionHeading">
-                    <div className="container">
-                        <p>{title}</p>
-                        <span onClick={() => setActive(title)}>
-                           {active === title ? "" : "|||"}
-                        </span>
-                    </div>
-                </div>
-                <div className={`accordionContent ${active2}`}>
-                    <div className="container">
-                        <p>{p}</p>
-                    </div>
+        <div className="accordion">
+            <div className="accordionHeading">
+                <div className="container">
+                    <p>{title}</p>
+                    <span onClick={() => setActive(title)}>
+                        {active === title ? "" : "|||"}
+                    </span>
                 </div>
             </div>
+            <div className={`accordionContent ${active2}`}>
+                <div className="container">
+                    <p>{p}</p>
+                </div>
+            </div>
+        </div>
     )
 }
 
