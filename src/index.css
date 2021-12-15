@@ -9,7 +9,7 @@
 .line {
   background: black;
   width: 70%;
-  height: 2px;
+  height: 1px;
   display: inline-block;
   max-width: 1000px;
 }
@@ -17,7 +17,7 @@
 .line2 {
   background: black;
   width: 70%;
-  height: 2px;
+  height: 1px;
   display: inline-block;
   max-width: 1000px;
 }
@@ -26,6 +26,7 @@
   color: black;
   margin: 10px;
   font-weight: bold;
+  font-size: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

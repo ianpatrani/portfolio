@@ -25,15 +25,14 @@ const MyPage = () => {
 
     return (
         <div className="media">
-
             <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+                <button onClick={() => themeToggler()}>💡Turn Off</button>
                 <GlobalStyles />
                 <StyledApp >
-                    <button onClick={() => themeToggler()}>💡Turn Off</button>
                     <div className="App">
                         <Header />
                         <Accordion title={t("title1.text1")} p={t("content1.description1")} active={active} setActive={setActive} />
-                        <Accordion title={t("title2.text2")} p={t("content2.description2")} active={active} setActive={setActive} />
+                        {/*  <Accordion title={t("title2.text2")} p={t("content2.description2")} active={active} setActive={setActive} /> */}
                         <Accordion title={t("title3.text3")} p={t("content3.description3")} active={active} setActive={setActive} />
                         <Accordion title={t("title4.text4")} p={
                             <ul>

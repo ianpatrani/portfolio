@@ -12,10 +12,10 @@ export default function Header() {
             <button value="es" onClick={() => i18n.changeLanguage("es")}>Español</button>
             <button value="en" onClick={() => i18n.changeLanguage("en")}>English</button>
             <div className="line" />
-            <br /><br />
-            <h1 className="h1h2">C:/DOS</h1>
+            {/*  <br /><br /> */}
+            {/*  <h1 className="h1h2">C:/DOS</h1>
             <h1 className="h1h2">C:/DOS/RUN</h1>
-            <h1 className="h1h2">RUN/DOS/RUN</h1>
+            <h1 className="h1h2">RUN/DOS/RUN</h1> */}
         </header>
 
     )
