@@ -1,6 +1,6 @@
 {
     "header": {
-        "hello-world": "./Bienvenido/al/portfolio/de/ianpatrani"
+        "hello-world": "./portfolio"
     },
     "title1": {
         "text1": "¿Quién soy?"
@@ -15,7 +15,7 @@
         "description2": "Mi objetivo es ser desarrollador de software, aprender buenas prácticas y modelos de negocio que puedan ser explotados en el futuro. Me gusta adquirir nuevos conocimientos y trabajar con los mejores equipos TIC del sector"
     },
     "title3": {
-        "text3": "¿Mis idiomas?"
+        "text3": "¿Mis Tecnologias?"
     },
     "content3": {
         "description3": "React | Node.js | CSS | HTML5 | JavaScript | ES7 | MySQL | Bootstrap | Java"

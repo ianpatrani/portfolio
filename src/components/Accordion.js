@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Accordion = ({ title, active, setActive, p }) => {
+const Accordion = ({ title, active, setActive, p, p2 }) => {
 
     let active2 = active === title ? "show" : "";
 
@@ -10,13 +10,14 @@ const Accordion = ({ title, active, setActive, p }) => {
                 <div className="container">
                     <p>{title}</p>
                     <span onClick={() => setActive(title)}>
-                        {active === title ? "" : "|||"}
+                        {active === title ? "" : "+"}
                     </span>
                 </div>
             </div>
             <div className={`accordionContent ${active2}`}>
                 <div className="container">
                     <p>{p}</p>
+                    <p>{p2}</p>
                 </div>
             </div>
         </div>

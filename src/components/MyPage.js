@@ -8,6 +8,8 @@ import styled, { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme, GlobalStyles } from "./Themes.js";
 import { useTranslation } from 'react-i18next';
 import '../index.css';
+import Popup from './Popup'
+
 const StyledApp = styled.div`
   color: ${(props) => props.theme.fontColor};
 `;
@@ -26,12 +28,14 @@ const MyPage = () => {
     return (
         <div className="media">
             <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
-                <button onClick={() => themeToggler()}>💡Turn Off</button>
+
                 <GlobalStyles />
                 <StyledApp >
                     <div className="App">
+                        <h2 className="h1h2">{t("header.hello-world")}  <button onClick={() => themeToggler()}>💡</button></h2>
+                        <div className="line" />
                         <Header />
-                        <Accordion title={t("title1.text1")} p={t("content1.description1")} active={active} setActive={setActive} />
+                        <Accordion title={t("title1.text1")} p={t("content1.description1")} p2={<Popup />} active={active} setActive={setActive} />
                         {/*  <Accordion title={t("title2.text2")} p={t("content2.description2")} active={active} setActive={setActive} /> */}
                         <Accordion title={t("title3.text3")} p={t("content3.description3")} active={active} setActive={setActive} />
                         <Accordion title={t("title4.text4")} p={
@@ -44,8 +48,11 @@ const MyPage = () => {
                                 <li><a href="https://silly-goldstine-9925e4.netlify.app/">✅Netflix</a></li>
                                 <li><a href="https://objective-fermat-25490a.netlify.app/">✅Products Shopping</a></li>
                             </ul>
-                        } active={active} setActive={setActive} />
+                        }
+                            active={active} setActive={setActive} />
+                        <div className="line" />
                         <Footer />
+
                     </div>
                 </StyledApp>
             </ThemeProvider>
