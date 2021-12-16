@@ -8,8 +8,8 @@ export default function Header() {
 
     return (
         <header className='lng'>
-                <button className='btnLng' value="es" onClick={() => i18n.changeLanguage("es")}>Español</button>
-                <button className='btnLng' value="en" onClick={() => i18n.changeLanguage("en")}>English</button>
+            <button className='btnLng' value="es" onClick={() => i18n.changeLanguage("es")}>Español</button>
+            <button className='btnLng' value="en" onClick={() => i18n.changeLanguage("en")}>English</button>
             {/*  <h1 className="h1h2">C:/DOS</h1>
             <h1 className="h1h2">C:/DOS/RUN</h1>
             <h1 className="h1h2">RUN/DOS/RUN</h1> */}

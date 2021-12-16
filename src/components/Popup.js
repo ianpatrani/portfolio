@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter, FormGroup, Input, FormText } from 'reactstrap';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter, FormText } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 
 class Popup extends React.Component {
