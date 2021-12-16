@@ -34,7 +34,6 @@ const MyPage = () => {
                     <div className="App">
                         <h2 className="h1h2">{t("header.hello-world")}  <button onClick={() => themeToggler()}>💡</button></h2>
                         <div className="line" />
-                        <Header />
                         <Accordion title={t("title1.text1")} p={t("content1.description1")} p2={<Popup />} active={active} setActive={setActive} />
                         {/*  <Accordion title={t("title2.text2")} p={t("content2.description2")} active={active} setActive={setActive} /> */}
                         <Accordion title={t("title3.text3")} p={t("content3.description3")} active={active} setActive={setActive} />
@@ -51,6 +50,8 @@ const MyPage = () => {
                         }
                             active={active} setActive={setActive} />
                         <div className="line" />
+                        <Header />
+
                         <Footer />
 
                     </div>
