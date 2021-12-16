@@ -11,9 +11,9 @@
     color: rgb(3, 3, 3);
 }
 
-.accordion:hover{
+/* .accordion:hover{
    background: #edf2f7;
-}
+} */
 
 .accordionHeading .container {
     display: flex;

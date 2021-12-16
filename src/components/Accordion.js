@@ -10,7 +10,7 @@ const Accordion = ({ title, active, setActive, p, p2 }) => {
                 <div className="container">
                     <p>{title}</p>
                     <span onClick={() => setActive(title)}>
-                        {active === title ? "" : "+" }
+                        {active === title ? "-" : "+" }
                     </span>
                 </div>
             </div>
