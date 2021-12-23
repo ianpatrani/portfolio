@@ -3,25 +3,25 @@
         "hello-world": "./portfolio"
     },
     "title1": {
-        "text1": "Who I am?"
+        "text1": "Who I am"
     },
     "content1": {
         "description1": "My name is Ian Patrani, I am a systems student and I work to provide code in frontend and backend development with the aim of providing most of the possible solutions for you."
     },
     "title2": {
-        "text2": "What is my goal ?"
+        "text2": "What is my goal "
     },
     "content2": {
         "description2": "My goal is to be a software developer, learn good practices and business models that can be exploited in the future. I like to acquire new knowledge and work with the best ICT teams in the sector."
     },
     "title3": {
-        "text3": "My technologies?"
+        "text3": "My technologies"
     },
     "content3": {
-        "description3": "React | Node.js | CSS | HTML5 | JavaScript | ES7 | MySQL | Bootstrap | Java"
+        "description3": "React | Node.js | Docker | CSS | HTML5 | JavaScript | ES7 | MySQL | Bootstrap | Java"
     },
     "title4": {
-        "text4": "My projects?"
+        "text4": "My projects"
     },
     "content4": {
         "description4": "https://github.com/ianpatrani/"
