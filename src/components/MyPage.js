@@ -39,11 +39,11 @@ const MyPage = () => {
                         <Accordion title={t("title3.text3")} p={t("content3.description3")} active={active} setActive={setActive} />
                         <Accordion title={t("title4.text4")} p={
                             <ul>
-                                <h5>Grupal</h5>
+                                <h6>Grupal</h6>
                                 <li><a href="https://inspiring-newton-abe152.netlify.app/">✅Rick&MortyAPP API</a></li>
                                 <li><a href="https://infallible-jang-490bb5.netlify.app/">✅Starbucks</a></li>
                                 <li><a href="https://silly-goldstine-9925e4.netlify.app/">✅Netflix</a></li>
-                                <h5>Individual</h5>
+                                <h6>Individual</h6>
                                 <li><a href="https://bootcamp-automarket.herokuapp.com/">✅Automarket</a></li>
                                 <li><a href="https://devplace-app-three.herokuapp.com/users">✅API example</a></li>
                                 <li><a href="https://serene-jennings-106ef1.netlify.app/">✅Frontend Mentor</a></li>
