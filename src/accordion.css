@@ -39,7 +39,7 @@
 }
 
 .accordionContent.show {
-    height: 180px;
+    height: 210px;
     opacity: 1;
 }
 
