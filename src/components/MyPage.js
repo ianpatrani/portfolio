@@ -46,7 +46,7 @@ const MyPage = () => {
                                 <h6>Individual</h6>
                                 <li><a href="https://bootcamp-automarket.herokuapp.com/">✅Automarket</a></li>
                                 <li><a href="https://devplace-app-three.herokuapp.com/users">✅API example</a></li>
-                                <li><a href="https://heuristic-fermat-c10eea.netlify.app/">Control Pacientes</a></li>
+                                <li><a href="https://heuristic-fermat-c10eea.netlify.app/">✅Control Pacientes</a></li>
                                 <li><a href="https://objective-fermat-25490a.netlify.app/">✅Products Shopping</a></li>
                             </ul>
                         }
